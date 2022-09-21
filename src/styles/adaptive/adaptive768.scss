@@ -1,0 +1,452 @@
+@media screen and (max-width: 768px){
+	.big-container{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .wheel-div{
+    transition: .3s all linear;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translateX(-50%);
+    z-index: 999999999999999999999999999;
+  }
+
+	.header{
+		&-first{
+			&-buttons{
+				flex-direction: column;
+				padding-top: 20px;
+				&-but-div{
+					padding-top: 30px;
+				}
+			}
+			&-title{
+				font-size: 65px;
+			}
+		}
+	}
+	.date{
+		&-div{
+			left: 3%;
+			font-size: 10pt;
+		}
+	}
+	.margin-button-header {
+	    margin-left: 0;
+	}
+	.social{
+		&-div{
+			width: 40px;
+			height: 40px;
+			margin-top: 10px;
+			&-item{
+				right: 2%;
+			}
+			&-imgURL{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 15pt;
+				color: #fff;
+			}
+		}
+	}
+	.navbarNav2{
+		padding-left: 0;
+	}
+	.navbar-toggler{
+		background: #fff;
+		margin-left: 1%;
+    border: $borderBLACK;
+	}
+  .navbar-toggler:focus{
+    outline: none;
+  }
+	.navbar-toggler-icon{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 20px;
+	}
+	.my-nav1{
+		display: block;
+		padding-right: 0;
+		&:before{
+			content: none;
+		}
+
+		&:after{
+					content: none;
+				}
+	}
+	.my-nav2{
+		display: block;
+		padding-left: 0;
+		&:before{
+			content: none;
+		}
+
+		&:after{
+					content: none;
+				}
+	}
+	.nav-f{
+		transition: .3 all linear;
+		position: fixed;
+		padding: 0;
+		background: none;
+		z-index: 1;
+		color: #000 !important;
+		border-bottom: $borderBLACK;
+    background: #fff !important;
+	}
+	.navbar-div{
+		background: none;
+		position: fixed;
+		top: 0;
+    color: #fff;
+    padding: 5px 0;
+    z-index: 100000000000000007629769841091887003294964970946560;
+	}
+
+
+%img2{
+  border-radius:5px;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.sec{
+  position: absolute;
+  z-index: 9999;
+  &-s2{
+    background-size: cover;
+  }
+  &-inputs{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+  }
+  &-input-margin{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  &-input-margin00{
+
+    margin-top: 10px;
+  }
+  &-text{
+    padding-bottom: 30px;
+  }
+  &-text-leftSEC{
+    padding-left: 0;
+  }
+  &-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+  }
+  &-title{
+    font-family: 'Banny Bold Round';
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    &:before{
+      content: '';
+      position: absolute;
+      width: 60px;
+      height: 5px;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      background-color: $yellow;
+      border-radius: 50px;
+    }
+
+  }
+  &-subtitle{
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+  
+    &_text{
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      padding-top: 0px;
+      
+    }
+    &_buttons{
+      // display: flex;
+      // justify-content: center;
+      padding-top: 30px;
+      // flex-direction: column;
+      // align-items: center;
+      &-butDIV{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 12pt;
+        font-weight: 700;
+        display: inline-block;
+        // border-left: none;
+        &-button{
+          &:hover{
+            text-decoration: none;
+          }
+        }
+        &-first{
+          border-left: none;
+        }
+      }
+    }
+    &_menu{
+      display: flex;
+        justify-content: center;
+      &-bigITEM{
+
+      }
+      &-item{
+        display: block;
+        padding-bottom: 40px;
+      }
+      &-title{
+        display: inline-block;
+        font-family: 'Banny Bold Round';
+        font-size: 18px;
+      }
+      &-price{
+        display: inline-block;
+        font-family: 'Banny Bold Round';
+        font-size: 18px;
+        padding-left: 5px;
+      }
+      &-subtitle{
+        font-size: 15px;
+        color: $light-grey;
+      }
+    }
+    &_contact{
+      &-form{
+        &-inpDIV{
+          padding: 5px 10px !important;
+          &-infoANDbutton{
+            display: flex;
+            align-items: center;
+          }
+        }
+        &-inp{
+          width: 100%;
+        }
+        &-tarea{
+          width: 100%;
+          height: 120px;
+          resize: none;
+        }
+      }
+      &-infoDIV{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        &-infoCHDIV{
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+        }
+        &-infoIMG{
+          display: inline-block;
+          padding-left: 10px;
+          &-image{
+            font-size: 18px;
+            color: $yellow;
+          }
+        }
+        &-infoTEXT{
+          display: inline-block;
+          font-size: 15px;
+          font-weight: 700;
+          color: $light-grey;
+          padding-left: 10px;
+        }
+      }
+    }
+
+  }
+  &-subtitle-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  &-input{
+    &-div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    &-butDIV{
+      padding-bottom: 30px;
+    }
+  }
+
+  &-img{
+    border-radius: 5px;
+    &-image{
+      @extend %img2;
+    }
+    &:before{
+      z-index: 100000000000000004764729344 !important;
+      visibility: visible !important;
+      position: absolute;
+      content: none;
+      height: 300px;
+      width: 300px;
+      border: 1vw solid $yellow;
+      box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);
+      border-radius: .3vw;
+      background: none;
+      top: 50%;
+      right: 0;
+      transform: translate(50%, -50%);
+    }
+
+  }
+  &-img-left{
+    border-radius: 5px;
+    padding-bottom: 30px;
+    &-image{
+      @extend %img2;
+    }
+    &:before{
+      z-index: 100000000000000004764729344 !important;
+      visibility: visible !important;
+      position: absolute;
+      content: none;
+      height: 300px;
+      width: 300px;
+      border: 1vw solid $yellow;
+      box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);
+      border-radius: .3vw;
+      background: none;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &-images{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+}
+.inp{
+  &-but{
+    transition: .2s all linear;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: $yellow;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 0;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border: $borderYELLOW;
+    
+    &:hover{
+      transition: .2s all linear;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 5px;
+      padding: 15px 0;
+      font-weight: 600;
+      border: $borderBLACK;
+    }
+    &:focus{
+      outline: none;
+    }
+  }
+  &-form-title{
+    font-family: 'Banny Bold Round';
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 50px;
+    &:before{
+      content: '';
+      position: absolute;
+      width: 60px;
+      height: 5px;
+      left: 50%;
+      bottom: 25%;
+      transform: translateX(-50%);
+      background-color: $yellow;
+      border-radius: 50px;
+
+    }
+  }
+}
+
+.sec7{
+  &-img{
+    &-item{
+      position: relative;
+    }
+    &-shtorka{
+      width: 100%;
+      // height: 50px;
+      // line-height: 50px;
+      background: #000;
+      vertical-align: middle;
+      color: #fff;
+      font-family:'Banny Bold Round' ;
+      // font-size: 20px;
+      padding-left: 5%;
+      position: absolute;
+      &-one{
+        border-top-left-radius:5px;
+        border-top-right-radius:5px;
+        transform-origin: right top;
+        transform: rotate(calc(-180deg + -90deg));
+      }
+      &-two{
+        border-top-left-radius:5px;
+        border-top-right-radius:5px;
+        transform-origin: left top;
+        transform: rotate(-90deg);
+      }
+    }
+  }
+  
+}
+
+
+
+.copyright{
+  height: 5vh;
+  color: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  line-height: 5vh;
+  vertical-align: middle;
+  &-mind{
+    font-weight: 600;
+  }
+}
+
+
+
+
+}

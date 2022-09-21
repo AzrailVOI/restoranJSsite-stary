@@ -1,0 +1,24 @@
+    @font-face {
+    font-family: 'Banny Round';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Banny Round'), url('Banny-Round.woff') format('woff')
+
+    }
+    
+
+    @font-face {
+    font-family: 'Banny Light Round';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Banny Light Round'), url('Banny-LightRound.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Banny Bold Round';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Banny Bold Round'), url('Banny-BoldRound.woff') format('woff'),
+    url(Banny-BoldRound.otf) format('otf'), url(Banny-BoldRound.ttf) format('truetype');
+    }
